@@ -1491,8 +1491,12 @@ img {
   margin-bottom: 0;
 }
 
-.montage-page video {
+.montage-page .medium {
   width: 500px;
+}
+
+.montage-page .large {
+  width: 1000px;
 }
 
 .montage-page .mt-100 {
@@ -1507,14 +1511,18 @@ img {
   .montage-page .mt-230 {
     margin-top: 0px;
   }
-  .montage-page video {
+  .montage-page .medium, .montage-page .large {
     width: 400px;
   }
 }
 @media screen and (max-width: 435px) {
-  .montage-page video {
+  .montage-page .large, .montage-page .medium {
     width: 250px;
   }
 }
 
 /****** *******/
+
+a {
+  font-family: OpenSans-Regular;
+}

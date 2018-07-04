@@ -1,0 +1,44 @@
+.hero-content .container-fluid div div h3 {
+  color: white;
+}
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+.hero-area .hero-content.main-video {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 770px) {
+  .hero-area .hero-content.main-text {
+    padding: 0;
+  }
+  .hero-area .hero-content.main-video {
+    padding-bottom: 10px;
+    padding-left: 0;
+  }
+}
+
+.elements-title h2 {
+  margin-bottom: 0;
+}
+
+.section-padding-30 {
+  padding-top: 30px;
+}
+
+.mfp-content .mfp-figure .mfp-close {
+  border: none;
+}
+
+.portfolio-thumb {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  margin-top: 50px;
+}

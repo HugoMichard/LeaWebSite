@@ -1,0 +1,15 @@
+.hero-area {
+  background-color: white;
+}
+
+.hero-area .hero-content p, .hero-area .hero-content h2, .hero-content .container-fluid .h-100 div h3, .hero-area .hero-content h1{
+  color: black;
+}
+
+.hero-area .hero-content .line {
+  background-color: black;
+}
+
+.hero-area {
+  margin-top: 40px;
+}
