@@ -1,13 +1,27 @@
+.wrap-input100 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 20px;
+}
 
+.wrap-input100 a {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
 
-
-
+.contact100-form-symbol:hover {
+  background-color: orange;
+  transition: 2s;
+}
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
 @font-face {
   font-family: OpenSans-Regular;
-  src: url('../fonts/OpenSans/OpenSans-Regular.ttf'); 
+  src: url('../fonts/OpenSans/OpenSans-Regular.ttf');
 }
 
 
@@ -15,8 +29,8 @@
 [ RESTYLE TAG ]*/
 
 * {
-	margin: 0px; 
-	padding: 0px; 
+	margin: 0px;
+	padding: 0px;
 	box-sizing: border-box;
 }
 
@@ -25,26 +39,6 @@ body, html {
 	font-family: OpenSans-Regular, sans-serif;
 }
 
-/*---------------------------------------------*/
-a {
-	font-family: OpenSans-Regular;
-	font-size: 14px;
-	line-height: 1.7;
-	color: #666666;
-	margin: 0px;
-	transition: all 0.4s;
-	-webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-}
-
-a:focus {
-	outline: none !important;
-}
-
-a:hover {
-	text-decoration: none;
-}
 
 /*---------------------------------------------*/
 h1,h2,h3,h4,h5,h6 {
@@ -66,7 +60,7 @@ ul, li {
 
 
 /*---------------------------------------------*/
-input {
+input, p {
 	outline: none;
 	border: none;
 }
@@ -118,7 +112,7 @@ iframe {
 [ Contact ]*/
 
 .container-contact100 {
-  width: 100%;  
+  width: 100%;
   min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -243,7 +237,7 @@ iframe {
   line-height: 1.2;
 }
 
-input.input100 {
+input.input100, p.input100 {
   height: 60px;
   padding: 0 20px 0 25px;
   font-size: 20px;
@@ -432,6 +426,3 @@ textarea.input100 {
     opacity: 1;
   }
 }
-
-
-
