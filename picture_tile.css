@@ -107,7 +107,7 @@ img {
 
 .portfolio-content:hover .entry-content {
     visibility: visible;
-    opacity: 1;
+    opacity: 0.8;
 }
 
 .home-page .portfolio-content h1 {
@@ -169,4 +169,12 @@ img {
 
 .scroll-down {
   text-align: center;
+}
+
+.portfolio-content-hovered {
+  z-index: 2;
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1s);
+  transition: 400ms ease;
 }
