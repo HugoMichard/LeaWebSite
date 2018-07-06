@@ -1,5 +1,69 @@
-.fadeOut {
-  visibility: hidden;
+/*
+body.is-ready{
+    opacity: 1;
+    transform: translateX(0);
+    transition-duration: 1s;
+}
+body {
   opacity: 0;
-  transition: visibility 0s 2s, opacity 2s linear;
+    transform: translateX(20%);
+}
+*/
+
+/* Rotation */
+div.rotate img {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+div.rotate:hover img {
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}
+
+/* Rotation et dézoome */
+div.rotate-zoom-out img {
+	-webkit-transform: rotate(10deg) scale(1.25);
+	transform: rotate(10deg) scale(1.25);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+div.rotate-zoom-out:hover img {
+	-webkit-transform: rotate(0) scale(1);
+	transform: rotate(0) scale(1);
+}
+
+
+.levitation {
+  color: black;
+  top: 50%;
+  left: 0px;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.levitation span {
+  color: #fff;
+  font-size: 70px;
+  font-weight: bold;
+  display: inline-block;
+  letter-spacing: 5px;
+  transition: 2s;
+  text-shadow: 0px 0px 0px #558B2F;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  cursor: default;
+}
+.levitation span:hover {
+  text-shadow: -8px 8px 0px #558B2F;
+  transition: 0.3s;
+  top: -8px;
+  left: 8px;
+}
+.levitation span.space {
+  width: 20px;
+  height: 100%;
 }

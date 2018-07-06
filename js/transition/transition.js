@@ -45,3 +45,12 @@ $(function(){
       smoothState = $("#launcher").smoothState(options).data('smoothState');
 });
 */
+var text = $('.levitation').text(),
+    textArr = text.split('');
+
+$('.levitation').html('');
+
+$.each(textArr, function(i, v){
+  if(v == ' '){$('.levitation').append('<span class="space"></span>');}
+  $('.levitation').append('<span>'+v+'</span>');
+})

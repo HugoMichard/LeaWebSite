@@ -349,7 +349,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="portfolio-title">
-                      <h2>“Bonjour à toi ! Je suis Léa, <span>Animateuse 3D </span>Généraliste!”</h2>
+                      <div class="levitation">“Bonjour à toi ! Je suis Léa, Animateuse 3D Généraliste!”</div>
                     </div>
                 </div>
             </div>
@@ -362,7 +362,7 @@
                             <img class="dots" src="img/core-img/dots.png" alt="">
                             <h2>Reality</h2>
                         </div>
-                        <div class="portfolio-thumb">
+                        <div class="portfolio-thumb rotate">
                             <img src="img/index/p1.png" alt="">
                         </div>
                         <div class="portfolio-meta">
@@ -377,7 +377,7 @@
                         <div class="backend-content">
                             <img class="dots" src="img/core-img/dots.png" alt="">
                         </div>
-                        <div class="portfolio-thumb">
+                        <div class="portfolio-thumb rotate">
                             <img src="img/index/p2.png" alt="">
                         </div>
                         <div class="portfolio-meta">
@@ -396,7 +396,7 @@
                             <img class="dots" src="img/core-img/dots.png" alt="">
                             <h2>Modelisation</h2>
                         </div>
-                        <div class="portfolio-thumb">
+                        <div class="portfolio-thumb rotate-zoom-out">
                             <img src="img/index/p3.png" alt="">
                         </div>
                         <div class="portfolio-meta">
@@ -529,11 +529,19 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <!-- Active js -->
     <script src="js/active.js"></script>
     <script src="js/carousel.js"></script>
-    
+
     <script src="js/transition/jquery.smoothState.js"></script>
     <script src="js/transition/transition.js"></script>
     <script src="js/transition/carousel_transition.js"></script>
-
+  <!--
+    <script type="text/javascript">
+    (function() {
+      document.addEventListener('DOMContentLoaded', function() {
+          document.querySelector('body').classList.add('is-ready');
+      }, false);
+    })();
+    </script>
+  -->
 </body>
 
 </html>
